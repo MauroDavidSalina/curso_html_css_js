@@ -62,10 +62,10 @@ h2.footer{
     background-color: darkred;
 }
 
-#game-board{
+.game-board{
     background-color: rgb(42,138,41);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     gap: 0.625rem;
     max-width: 37.5rem;
     margin: 0 auto;
@@ -93,7 +93,7 @@ h2.footer{
     display: none;
 }
 
-#game-board.fade-out{
+.game-board.fade-out{
     animation: fadeOut 0.5s ease-in-out;
 }
 
